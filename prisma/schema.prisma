@@ -1,0 +1,15 @@
+datasource db {
+  provider = "postgresql"
+  url      = env("POSTGRESQL_URL")
+}
+
+model CrimeStatistics {
+  id                  Int      @id @default(autoincrement())
+  date                DateTime
+  suburb              String
+  postalCode          String
+  description_level_1 String
+  description_level_2 String
+  description_level_3 String
+  count               Int
+}

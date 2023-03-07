@@ -1,0 +1,18 @@
+version: "3.9"
+
+volumes:
+  postgres_australia:
+    driver: local
+
+services:
+  postgres-australia:
+    image: postgres:15.2
+    container_name: postgres-australia
+    volumes:
+      - postgres_australia:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_DB: postgres
+      POSTGRES_USER: username
+      POSTGRES_PASSWORD: password
