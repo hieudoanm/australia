@@ -4,10 +4,12 @@ datasource db {
 }
 
 model CrimeStatistics {
-  id                  Int      @id @default(autoincrement())
-  date                DateTime
+  id                  Int    @id @default(autoincrement())
+  year                Int
+  month               Int
+  date                Int
   suburb              String
-  postalCode          String
+  postal_code         String
   description_level_1 String
   description_level_2 String
   description_level_3 String

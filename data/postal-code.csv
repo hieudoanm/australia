@@ -5571,6 +5571,13 @@ postcode,place_name,state_name,state_code,latitude,longitude,accuracy
 870,Braitling,Northern Territory,NT,-23.68,133.8688,1
 870,Desert Springs,Northern Territory,NT,-23.7,133.874,1
 871,Alice Springs,Northern Territory,NT,-23.7,133.8833,1
+872,Amata,Northern Territory,NT,,,
+872,Pukatja,Northern Territory,NT,,,
+872,Kaltjiti,Northern Territory,NT,,,
+872,Pipalyatjara,Northern Territory,NT,,,
+872,Kanpi,Northern Territory,NT,,,
+872,Umawa,Northern Territory,NT,,,
+872,Kalka,Northern Territory,NT,,,
 872,Ampilatwatja,Northern Territory,NT,-21.657,135.2259,4
 872,Wilora,Northern Territory,NT,-21.7443,133.7265,4
 872,Barrow Creek,Northern Territory,NT,-21.55,133.8833,4
@@ -10782,6 +10789,7 @@ postcode,place_name,state_name,state_code,latitude,longitude,accuracy
 5690,White Well Corner,South Australia,SA,-32.0129,133.2552,3
 5690,Fowlers Bay,South Australia,SA,-31.9865,132.4349,4
 5690,Yalata,South Australia,SA,-31.4802,131.8424,4
+5690,Border Village,South Australia,SA,,,
 5700,Winninowie,South Australia,SA,-32.5369,137.8122,3
 5700,Port Augusta North,South Australia,SA,-32.6049,137.6894,3
 5700,Port Paterson,South Australia,SA,-32.5543,137.8309,4
